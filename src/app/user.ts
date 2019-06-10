@@ -8,8 +8,7 @@ export class User {
       public html_url: string,
       public followers: number,
       public following: number,
-      public public_repos: number,
-      
+      public public_repos: number,  
     ) {}
   }
   
