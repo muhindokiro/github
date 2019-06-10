@@ -10,8 +10,8 @@ import { GithubService } from "../githubsearch.service";
 export class SearchFormComponent implements OnInit {
   submitSearch(name) {
     this.githubService.getProfileInfo(name.target.value);
-  
   }
+  
   constructor(
     private githubService: GithubService,
   ) {}
