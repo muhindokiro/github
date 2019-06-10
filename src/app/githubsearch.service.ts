@@ -12,8 +12,7 @@ export class GithubService {
 
   
   constructor(private http: HttpClient) {
-    this.user = new User("", "", "", "", "", 0, 0, 0);
-    
+    this.user = new User("", "", "", "", "", 0, 0, 0);  
   }
   
   getProfileInfo(username) {
