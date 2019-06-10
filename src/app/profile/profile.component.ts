@@ -2,6 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { User } from "../user";
 import { GithubService } from "../githubsearch.service";
 
+
 @Component({
   selector: "app-profile",
   templateUrl: "./profile.component.html",
