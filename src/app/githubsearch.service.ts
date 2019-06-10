@@ -10,14 +10,12 @@ export class GithubService {
   
   user: User;
 
-  
   constructor(private http: HttpClient) {
     this.user = new User("", "", "", "", "", 0, 0, 0);  
   }
   
   getProfileInfo(username) {
     interface ApiResponse {
-    
       login: string;
       avatar_url: string;
       email: string;
