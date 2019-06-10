@@ -13,12 +13,13 @@ import { SearchFormComponent } from "./search-form/search-form.component";
     AppComponent,
     ProfileComponent,
     SearchFormComponent
-  
   ],
+  
   imports: [ 
     BrowserModule,
     HttpClientModule
     ],
+  
   providers: [GithubService],
   bootstrap: [AppComponent]
 })
